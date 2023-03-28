@@ -18,3 +18,5 @@ https://user-images.githubusercontent.com/67812755/223983198-fc93e220-15c2-4ad0-
 | 009 |  [Input Field Count](https://javascript-projects-09.netlify.app/)                    | Link|
 | 010 |  [Explanding Cards](https://javascript-projects-10.netlify.app/)                     | Link|
 | 011 |  [Sound Board](https://javascript-projects-11.netlify.app/)                          | Link|
+| 012 |  [Random Choice Picker](https://javascript-projects-12.netlify.app/)                 | Link|
+| 013 |  [Geo location API](https://javascript-projects-13.netlify.app/)                     | Link|
