@@ -34,7 +34,7 @@ body {
 
 .container {
   width: 300px;
-  height: 100px;
+  height: 160px;
   background-color: var(--white);
   border-radius: 10px;
 }
@@ -49,5 +49,10 @@ body {
 }
 .location{
   margin: 3px;
-  text-align: center;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.map {
+  margin-top: 20px;
 }
