@@ -56,3 +56,12 @@ body {
 .map {
   margin-top: 20px;
 }
+/*  */
+
+.span-element{
+  color: red;
+  font-size: 18px;
+  border: 2px solid purple;
+  height: 50px;
+  width: 100px;
+}
