@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #005490;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+.container {
+  padding: 20px;
+  width: 800px;
+  height: 300px;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.title {
+  color: #31326f;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 15px 10px 10px 10px;
+  text-align: center;
+}
+
+.quote {}
+
+.content {
+  text-align: center;
+  word-break: break-all;
+}
+
+.content i {
+  padding: 5px;
+}
+
+.author {
+  display: flex;
+  font-size: 18px;
+  margin-top: 20px;
+  font-style: italic;
+  justify-content: flex-end;
+}
+
+.author span:first-child {
+  margin: -7px 5px 0 0;
+  font-family: monospace;
+}
+
+.author .name {
+  margin-right: 15px;
+  color: #31326f;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.buttons .features {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features ul {
+  display: flex;
+}
+
+.features ul li {
+  margin: 0 5px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #005490;
+  list-style: none;
+  border: 2px solid #005490;
+  border-radius: 50%;
+}
+
+.features ul li:first-child {
+  margin-left: 5px;
+}
+
+ul li:is(:hover, .active) {
+  color: #fff;
+  background: #5372F0;
+}
+
+ul .speech.active {
+  pointer-events: none;
+}
+
+.features button {
+  margin: 20px;
+  padding: 13px 22px;
+  border: none;
+  border-radius: 10px;
+  background-color: #005490;
+  color: #eee;
+  cursor: pointer;
+  font-size: 17px;
+  outline: none;
+}
+
+.buttons button.loading {
+  opacity: 0.7;
+  pointer-events: none;
+}
